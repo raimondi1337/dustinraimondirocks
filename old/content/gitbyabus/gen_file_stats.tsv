@@ -1,0 +1,9 @@
+git_by_a_bus:__init__.py	1	tomheon:1:0			
+git_by_a_bus:common.py	127	tomheon:120:0,tomheon:1:0,tomheon:7:1			
+git_by_a_bus:estimate_file_risk.py	68	tomheon:67:0,tomheon:1:0,tomheon:2:2			
+git_by_a_bus:estimate_unique_knowledge.py	151	tomheon:151:0			
+git_by_a_bus:gen_file_stats.py	77	tomheon:71:0,tomheon:3:1,tomheon:4:0			
+git_by_a_bus:git_by_a_bus.py	209	tomheon:202:0,tomheon:2:1,tomheon:1:2,Joseph Wecker:1:0,Joseph Wecker:10:4,Joseph Wecker:1:1			
+git_by_a_bus:git_file_stats.py	155	tomheon:154:0,tomheon:1:0,tomheon:2:2			
+git_by_a_bus:summarize.py	429	tomheon:422:0,tomheon:6:0,Joseph Wecker:1:1,Ralph Bean:2:1,Nathaniel Case:1:1			
+git_by_a_bus:svn_file_stats.py	166	tomheon:166:0,tomheon:2:2			

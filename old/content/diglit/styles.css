@@ -1,0 +1,86 @@
+/* styles for typed's blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* styles for typed's blinking cursor */
+
+@font-face{
+    font-family: robotTeacher;
+    src: url(robot.ttf);
+}
+@font-face{
+    font-family: forgotten;
+    src: url(Forgotten.ttf);
+}
+
+/* Set font
+.happy{
+    font-family: robotTeacher;
+}
+.sad{
+    font-family: forgotten;
+}
+*/
+
+button{
+    background: none;
+    border: none;
+    font-size: 14;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 50%;
+    display: inline-block;
+    background: whitesmoke;
+}
+
+#left{
+    margin: 50px;
+}
+
+#right{
+    position: fixed;
+    top:150px;
+}
+
+.happy{
+    cursor: pointer;
+    background: #DDDDFF;
+}
+
+.sad{
+    cursor: pointer;
+    background: #FFDDDD;
+}
+
+#qr{
+    position: fixed;
+    top: 250px;
+}
+
+.hover{
+    background: #DDFFDD;
+}
